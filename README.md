@@ -8,7 +8,9 @@ Standing out requires innovation that captures and sustains user engagement. To 
 #### Swiping Interface
 Inspired by popular dating apps like Tinder, our Swiping Interface offers a fun and intuitive way to shop for fashion. Users can swipe right on items they love and left on those they don't. This interaction helps our AI learn each user's unique style preferences, enhancing the accuracy of personalized fashion feeds with each swipe. The more you swipe, the better tailored your fashion recommendations become!
 
-[![Video Demo](https://github.com/senanoushka/Myntra_Pixel/blob/main/swipe.png)](https://github.com/senanoushka/Myntra_Pixel/blob/main/swipe.mp4)
+<div align="left">
+    <img src="swipe.png" alt="Logo" width="300" height="500">
+</div> 
 
 #### VibeBoard
 Drawing inspiration from Pinterest, the VibeBoard allows users to search and express their fashion preferences creatively, akin to crafting a vision board. Users can search for outfits by typing in the desired vibe, such as "boho summer" or "streetwear vibes." Our AI-driven search algorithm then recommends items that match the described aesthetic. Users can save these looks to their VibeBoard for inspiration or add them directly to their cart, effectively bridging the gap between visualizing and owning a style.
