@@ -1,0 +1,429 @@
+.homeIndicator.homeIndicator {
+  bottom: 12px;
+}
+.root {
+  position: relative;
+  width: 390px;
+  height: 844px;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #fff;
+  overflow: hidden;
+}
+.grad {
+  position: absolute;
+  left: 1px;
+  top: 41px;
+  width: 387px;
+  height: 31px;
+  overflow: visible;
+  filter: blur(22.5px);
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.rectangle6 {
+  transform-origin: top left;
+  position: absolute;
+  left: 16px;
+  top: 142px;
+  width: 322px;
+  height: 49px;
+  border-radius: 26px;
+  background-color: #d9d9d987;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.rectangle8 {
+  position: absolute;
+  left: 200px;
+  top: 311px;
+  width: 174px;
+  height: 108px;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+.rectangle10 {
+  position: absolute;
+  left: 16px;
+  top: 486px;
+  width: 174px;
+  height: 108px;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+.downNav {
+  position: absolute;
+  left: 1px;
+  top: 761px;
+  width: 389px;
+  height: 56px;
+  overflow: visible;
+}
+.icon2 {
+  width: 100%;
+  height: 100%;
+}
+.pinkLine {
+  position: absolute;
+  left: 0;
+  top: 757px;
+  width: 75px;
+  height: 3px;
+  border-radius: 50px;
+  background-color: #e72744;
+}
+.line1 {
+  position: relative;
+  left: 1px;
+  top: 755px;
+  width: 389.0025px;
+  max-width: 100%;
+  height: 2.0373px;
+  max-height: 100%;
+}
+.line1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: 0 0;
+  transform: rotate(0.1528deg);
+  width: 389.0013px;
+  height: 0;
+  border-bottom: solid 1px #806969;
+}
+.plus1 {
+  position: absolute;
+  left: 351px;
+  top: 152px;
+  width: 22px;
+  height: 22px;
+  background-image:/* webpackIgnore: true */ url('/assets/plus1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.topNav {
+  position: absolute;
+  left: 0;
+  top: 25px;
+  width: 390px;
+  height: 58px;
+  background-image:/* webpackIgnore: true */ url('/assets/topNav.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.magnifyingGlass1 {
+  position: absolute;
+  left: 35px;
+  top: 152px;
+  width: 22px;
+  height: 28px;
+  background-image:/* webpackIgnore: true */ url('/assets/magnifyingGlass1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.curateYourFitsAndWinDiscounts {
+  color: #000;
+  font-size: 14px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 72px;
+  top: 156px;
+  width: 255px;
+  height: 24px;
+  flex-direction: column;
+}
+.vibeBoard {
+  color: #000;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 22px;
+  top: 111px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.boxAboveNav {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 399px;
+  height: 32px;
+  background-color: #fff;
+}
+.streetwear {
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 23px;
+  top: 603px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+._8Products {
+  color: #000;
+  font-size: 12px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 23px;
+  top: 618px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.share3 {
+  position: absolute;
+  left: 149px;
+  top: 599px;
+  width: 41px;
+  height: 33px;
+  background-image:/* webpackIgnore: true */ url('/assets/share3.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.street2 {
+  position: absolute;
+  left: 103px;
+  top: 486px;
+  width: 87px;
+  height: 57px;
+  border-radius: 0 20px 0 0;
+  background-image:/* webpackIgnore: true */ url('/assets/street2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.street4 {
+  position: absolute;
+  left: 103px;
+  top: 540px;
+  width: 86px;
+  height: 55px;
+  border-radius: 0 0 20px;
+  background-image:/* webpackIgnore: true */ url('/assets/street4.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.street1 {
+  position: absolute;
+  left: 15px;
+  top: 486px;
+  width: 88px;
+  height: 108px;
+  border-radius: 20px 0 0 20px;
+  background-image:/* webpackIgnore: true */ url('/assets/street1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+._6Products {
+  color: #000;
+  font-size: 12px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 208px;
+  top: 440px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.summerChic {
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 208px;
+  top: 428px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.summer3 {
+  position: absolute;
+  left: 200px;
+  top: 311px;
+  width: 90px;
+  height: 108px;
+  border-radius: 20px 0 0 20px;
+  background-image:/* webpackIgnore: true */ url('/assets/summer3.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.summer2 {
+  position: absolute;
+  left: 287px;
+  top: 312px;
+  width: 87px;
+  height: 57px;
+  border-radius: 0 20px 0 0;
+  background-image:/* webpackIgnore: true */ url('/assets/summer2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.summer1 {
+  position: absolute;
+  left: 287px;
+  top: 368px;
+  width: 86px;
+  height: 50px;
+  border-radius: 0 0 23px;
+  background-image:/* webpackIgnore: true */ url('/assets/summer1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.share2 {
+  position: absolute;
+  left: 333px;
+  top: 422px;
+  width: 41px;
+  height: 33px;
+  background-image:/* webpackIgnore: true */ url('/assets/share2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.corporateSleek {
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 23px;
+  top: 428px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.corpRec {
+  position: absolute;
+  left: 14px;
+  top: 311px;
+  width: 174px;
+  height: 108px;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+}
+._19Products {
+  color: #000;
+  font-size: 12px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 23px;
+  top: 443px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.corp4 {
+  position: absolute;
+  left: 109px;
+  top: 369px;
+  width: 79px;
+  height: 49px;
+  border-radius: 0 0 20px;
+  background-image:/* webpackIgnore: true */ url('/assets/corp4.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.corporate21 {
+  position: absolute;
+  left: 108px;
+  top: 311px;
+  width: 80px;
+  height: 57px;
+  border-radius: 0 20px 0 0;
+  background-image:/* webpackIgnore: true */ url('/assets/corporate21.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.corporate11 {
+  position: absolute;
+  left: 14px;
+  bottom: 425px;
+  width: 94px;
+  height: 108px;
+  border-radius: 20px 0 0 20px;
+  background-image:/* webpackIgnore: true */ url('/assets/corporate11.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.share1 {
+  position: absolute;
+  left: 147px;
+  top: 422px;
+  width: 41px;
+  height: 33px;
+  background-image:/* webpackIgnore: true */ url('/assets/share1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.rectangle11 {
+  position: absolute;
+  left: 11px;
+  top: 200px;
+  width: 367px;
+  height: 89px;
+  background-image:/* webpackIgnore: true */ url('/assets/rectangle11.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+.rectangle12 {
+  position: absolute;
+  left: 270px;
+  top: calc(50% - -293px);
+  width: 108px;
+  height: 36px;
+  border-radius: 20px;
+  background-color: #de4e74;
+  transform: translateY(-50%);
+}
+.sUBMIT {
+  color: #fff;
+  font-size: 15.5px;
+  font-weight: 800;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 293px;
+  top: 705px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
